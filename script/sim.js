@@ -6,7 +6,7 @@ module.exports.config = {
 		credits: "ericson",
 		description: "Talk to sim",
 		cooldown: 0,
-		hasPrefix: false
+		hasPrefix: true
 };
 
 module.exports.run = async function({ api, event, args }) {
